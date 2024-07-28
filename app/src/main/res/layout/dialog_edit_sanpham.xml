@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextMaSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã SP"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên SP"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô Tả"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập Nhật" />
+
+</LinearLayout>
